@@ -1,16 +1,39 @@
-# phase_one_app
 
-A new Flutter project.
+# Fase 1 App
 
-## Getting Started
+Proyecto que busca resolver la fase 1 de la ruta de crecimiento practica en flutter.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Download
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Download phase_one project
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+  git clone git@github.com:felipepragma/phase_one.git
+```
+
+## Installation
+
+Instalation flutter project
+
+```bash
+  flutter pub get
+  flutter run
+```
+    
+## Screenshots App
+
+![App Screenshot 1](screenshots/screen1.png)
+
+![App Screenshot 2](screenshots/screen2.png)
+
+![App Screenshot 3](screenshots/screen3.png)
+
+
+## Arch
+
+**Dependency Inject:** Riverpod
+
+**Routes:** GoRoute
+
+![Arch](screenshots/flowapp.jpg)

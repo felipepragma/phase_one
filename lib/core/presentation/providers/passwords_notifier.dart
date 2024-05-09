@@ -11,22 +11,22 @@ import 'package:shared_preferences/shared_preferences.dart';
 /// [passwordProvider] : Provider
 /// 
 final passwordProvider =
-    StateNotifierProvider<PersonNotifier, IPasswordUseCase>((ref) {
+    StateNotifierProvider<PasswordNotifier, IPasswordUseCase>((ref) {
     final sharedPreferences = ref.watch(sharedPreferencesProvider);
-    return PersonNotifier(sharedPreferences.value);
+    return PasswordNotifier(sharedPreferences.value);
 });
 
 ///
 /// Notifier used for riverpod
 /// 
-/// [PersonNotifier] : Notifier
+/// [PasswordNotifier] : Notifier
 /// 
 /// [savePassword] : method used to save a list of passwords
 /// [getAllPassword] : method used to read a list of passwords
 /// 
-class PersonNotifier extends StateNotifier<IPasswordUseCase> {
+class PasswordNotifier extends StateNotifier<IPasswordUseCase> {
   List<PasswordModel> list = [];
-  PersonNotifier(SharedPreferences? sharedPreferences) : super(PasswordUseCase(sharedPreferences));
+  PasswordNotifier(SharedPreferences? sharedPreferences) : super(PasswordUseCase(sharedPreferences));
 
   void savePassword(PasswordModel passwordModel) {
     state.savePassword(passwordModel);
