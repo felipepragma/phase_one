@@ -32,8 +32,10 @@ Instalation flutter project
 
 ## Arch
 
+It was used in the **clean architecture** project based on **features**
+
 **Dependency Inject:** Riverpod
 
 **Routes:** GoRoute
 
-![Arch](screenshots/flowapp.jpg)
+![Arch](screenshots/flowapp.png)
