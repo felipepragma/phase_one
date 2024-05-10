@@ -1,7 +1,7 @@
 
-# Fase 1 App
+# Phase 1 App
 
-Proyecto que busca resolver la fase 1 de la ruta de crecimiento practica en flutter.
+Project that solves phase 1 of the practical growth path in flutter.
 
 
 ## Download
@@ -20,15 +20,6 @@ Instalation flutter project
   flutter pub get
   flutter run
 ```
-    
-## Screenshots App
-
-![App Screenshot 1](screenshots/screen1.png)
-
-![App Screenshot 2](screenshots/screen2.png)
-
-![App Screenshot 3](screenshots/screen3.png)
-
 
 ## Arch
 
@@ -38,4 +29,4 @@ It was used in the **clean architecture** project based on **features**
 
 **Routes:** GoRoute
 
-![Arch](screenshots/flowapp.png)
+![Arch](.configproject/screenshots/flowapp.png)
